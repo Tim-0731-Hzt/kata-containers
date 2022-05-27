@@ -6,3 +6,8 @@ members = [
     # TODO: current only for check, delete after use the resource crate
     "crates/resource",
 ]
+
+[patch.'crates-io']
+netlink-sys = { git = 'https://github.com/little-dude/netlink.git',branch = "master"}
+rtnetlink = { git = 'https://github.com/little-dude/netlink.git',branch = "master"}
+netlink-packet-route = { git = 'https://github.com/little-dude/netlink.git',branch = "master"}
